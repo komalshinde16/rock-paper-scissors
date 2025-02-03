@@ -1,0 +1,36 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    background-color: lightpink;
+}
+
+.game-heading{
+    text-align: center;
+    background-color: purple;
+    padding: 2vh 0;
+
+}
+
+h1{
+    text-align: center;
+    padding: 2vh 0;
+}
+
+.user-options {
+    display: flex;
+    justify-content: center;
+    gap: 6vw;
+    padding: 4vh 0;
+  }
+  .user-options button {
+    background-color: transparent;
+    border: none;
+    font-size: 150px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: whitesmoke;
+  }
