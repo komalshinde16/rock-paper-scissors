@@ -60,15 +60,25 @@ function checkWhoWon(usersChioce, computersChoice) {
     (usersChioce === "rock" && computersChoice === "scissors") ||
     (usersChioce === "paper" && computersChoice === "rock") ||
     (usersChioce === "scissors" && computersChoice === "paper")
-  ) {
+  )
+
+  {
     resultContainer.innerHTML = "Result: Cong. You won!!";
+    resultContainer.style.color = "black";
+    resultContainer.style.backgroundColor = "green";
+    
+    
   } else if (
     (computersChoice === "rock" && usersChioce === "scissors") ||
     (computersChoice === "paper" && usersChioce === "rock") ||
     (computersChoice === "scissors" && usersChioce === "paper")
   ) {
     resultContainer.innerHTML = "Result : You Lost..";
+    resultContainer.style.color = "black";
+    resultContainer.style.backgroundColor = "red";
   } else {
     resultContainer.innerHTML = "Result : Draw";
+    resultContainer.style.color = "white";
+    resultContainer.style.backgroundColor = "blue";
   }
 }

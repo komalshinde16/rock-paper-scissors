@@ -15,10 +15,6 @@ function playGame(){
     return;
  }
 
-
-
-
-
 if(usersChoice1===null || usersChoice1===""){
     alert("enter input bro"); 
     playGame();
@@ -58,6 +54,9 @@ console.log("comp choice", computersChoice);
 }
 
 }
+
+
+
 
 
 
